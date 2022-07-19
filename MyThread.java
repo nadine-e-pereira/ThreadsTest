@@ -1,6 +1,8 @@
 public class MyThread extends Thread {
 int threadID;
 private static final int NUM_THREADS = 5 ;
+ 
+//Availible content at: http://wiki.inf.ufpr.br/maziero/doku.php?id=socm:start
 
 MyThread (int ID) {
 threadID = ID;
